@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkbuildwithsid=self.webpackChunkbuildwithsid||[]).push([[485],{8485:(s,i,e)=>{e.r(i),e.d(i,{default:()=>d});e(5043);var l=e(579);const d=()=>(0,l.jsx)("div",{className:"blog-page",children:(0,l.jsxs)("div",{className:"container",children:[(0,l.jsx)("h1",{children:"Blog"}),(0,l.jsx)("p",{children:"Coming soon..."})]})})}}]);
+//# sourceMappingURL=485.133cda3d.chunk.js.map
