@@ -1,0 +1,32 @@
+.projects-page {
+  padding: 4rem 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.projects-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.projects-header h1 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.lead {
+  color: var(--text-light);
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .projects-page {
+    padding: 2rem 1rem;
+  }
+}
