@@ -224,9 +224,9 @@ const ProjectDetail = () => {
       {isExternalOnly && (
         <div className="external-demo-notice">
           <p>
-            This demo runs on Streamlit Cloud and will open in a new window when
-            you click "Open Demo in New Tab". Streamlit apps cannot be embedded
-            directly due to security restrictions.
+            {project.liveDemo && project.liveDemo.includes("streamlit")
+              ? "This demo runs on Streamlit Cloud and will open in a new window when you click \"Open Demo in New Tab\"."
+              : "This live application opens in a new window when you click \"Open Demo in New Tab\"."}
           </p>
         </div>
       )}

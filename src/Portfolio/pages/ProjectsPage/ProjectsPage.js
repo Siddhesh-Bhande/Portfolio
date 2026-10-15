@@ -8,10 +8,9 @@ const ProjectsPage = () => {
     <div className="projects-page">
       <div className="container">
         <div className="projects-header">
-          <h1>Our Projects</h1>
+          <h1>Projects & Case Studies</h1>
           <p className="lead">
-            Explore our portfolio of innovative solutions and successful
-            deliveries
+            Production web applications, distributed systems, spatial GIS engines, and machine learning pipelines
           </p>
         </div>
         <ProjectGrid projects={projectsData} />

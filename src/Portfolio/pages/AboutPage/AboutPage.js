@@ -77,7 +77,7 @@ const AboutPage = () => {
                 professional experience, I blend technical expertise with
                 innovative problem-solving to build solutions that drive
                 business success. My journey spans from developing robust React
-                frontends to architecting complex ML systems—always with a focus
+                frontends to architecting complex ML systems, always with a focus
                 on creating exceptional user experiences.
               </p>
 
