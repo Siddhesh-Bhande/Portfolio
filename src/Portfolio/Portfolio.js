@@ -32,7 +32,7 @@ const Portfolio = () => {
   useScrollReveal();
 
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <ScrollToTop />
       <Routes>
         {/* Component-only routes - no layout */}
